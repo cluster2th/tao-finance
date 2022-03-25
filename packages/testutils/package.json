@@ -1,0 +1,19 @@
+{
+  "name": "@taodao/testutils",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/taodao-testutils.cjs.js",
+  "module": "dist/taodao-testutils.esm.js",
+  "browser": {
+    "./dist/taodao-testutils.cjs.js": "./dist/taodao-testutils.browser.cjs.js",
+    "./dist/taodao-testutils.esm.js": "./dist/taodao-testutils.browser.esm.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@enzymefinance/ethers": "^0.0.7",
+    "@enzymefinance/hardhat": "^0.0.13",
+    "@taodao/protocol": "^1.0.0",
+    "ethers": "^5.3.0",
+    "ethers-eip712": "^0.2.0"
+  }
+}
